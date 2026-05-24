@@ -25,12 +25,12 @@ export default function ScrollReveal() {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative z-10 overflow-hidden">
-      <h4
+      <p
         ref={titleRef}
-        className="text-white/80 font-black text-[18vw] leading-none text-center select-none"
+        className="text-white/80 font-black text-[10vw] leading-none text-center select-none"
       >
         Together, let's revolutionize the digital universe
-      </h4>
+      </p>
     </section>
   );
 }
