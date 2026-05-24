@@ -10,6 +10,10 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
         className="text-7xl md:text-[11rem] font-black text-white leading-none"
+        style={{
+        textShadow:
+            "0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff",
+        }}
         >
         Flodias 
         </motion.h1>
