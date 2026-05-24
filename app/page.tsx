@@ -8,6 +8,7 @@ import Loader from "@/components/Loader"
 import Navbar from "@/components/Navbar";
 import GridBackground from "@/components/GridBackground";
 import CurtainReveal from "@/components/CurtainReveal";
+import NatureBackground from "@/components/NatureBackground";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <SpaceBackground />
       <Hero />
       <ScrollReveal />
+      <NatureBackground />
       <CurtainReveal/>
       <About />
       <Projects />
@@ -28,7 +30,7 @@ export default function Home() {
           NEXT GENERATION WEB
         </h4>
       </section>
-      
+
     </main>
   );
 }
