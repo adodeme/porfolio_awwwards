@@ -6,15 +6,25 @@ export default function Hero() {
   return (
     <section className="relative z-10 h-screen flex flex-col justify-center items-center text-center px-6 backdrop-blur-sm">
         <motion.h1
-        initial={{ opacity: 0, y: 80 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2 }}
+        initial={{
+        opacity: 0,
+        scale: 0.7,
+        }}
+
+        animate={{
+        opacity: 1,
+        scale: 1,
+        }}
+
+        transition={{
+        duration: 1.5,
+        delay: 0.5,
+        }}
         className="text-7xl md:text-[11rem] font-black text-white leading-none"
         style={{
         textShadow:
-            "0 0 20px #ffd000, 0 0 40px #ffe600, 0 0 80px #ff0080",
-        }}
-        >
+            "0 0 20px #f3df85, 0 0 40px #f5efb6, 0 0 80px #f1accf",
+        }}>
         Flodias 
         </motion.h1>
 
