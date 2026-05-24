@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative z-10 h-screen flex flex-col justify-center items-center text-center px-6 backdrop-blur-sm">
+    <section id="hero" className="relative z-10 h-screen flex flex-col justify-center items-center text-center px-6 backdrop-blur-sm">
         <motion.h1
         initial={{
         opacity: 0,
@@ -23,7 +23,7 @@ export default function Hero() {
         className="text-7xl md:text-[11rem] font-black text-white leading-none"
         style={{
         textShadow:
-            "0 0 20px #f3df85, 0 0 40px #f5efb6, 0 0 80px #f1accf",
+            "0 0 20px #eeece5, 0 0 40px #d4eef0, 0 0 80px #f7e6ee",
         }}>
         Flodias 
         </motion.h1>
@@ -32,12 +32,12 @@ export default function Hero() {
             Creative Developer
         </p>
 
-      <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ delay: 1.5 }}
-        className="mt-12"
-      >
+        <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ delay: 1.5 }}
+            className="mt-12"
+        >
         <motion.button
         whileHover={{
             scale: 1.1,
