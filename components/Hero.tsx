@@ -6,22 +6,17 @@ export default function Hero() {
   return (
     <section className="relative z-10 h-screen flex flex-col justify-center items-center text-center px-6 backdrop-blur-sm">
         <motion.h1
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.5 }}
-        className="text-7xl md:text-[10rem] font-black text-white tracking-tight"
+        initial={{ opacity: 0, y: 80 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2 }}
+        className="text-7xl md:text-[11rem] font-black text-white leading-none"
         >
-        ADODEME
+        Flodias 
         </motion.h1>
 
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1 }}
-        className="mt-6 text-gray-400 text-xl"
-      >
-        Creative Full Stack Developer
-      </motion.p>
+        <p className="mt-6 text-cyan-300 text-xl md:text-2xl tracking-[0.3em] uppercase">
+            Creative Developer
+        </p>
 
       <motion.div
         initial={{ scale: 0 }}
