@@ -12,11 +12,12 @@ import CurtainReveal from "@/components/CurtainReveal";
 export default function Home() {
   return (
     <main className="relative bg-black">
-      <SpaceBackground />
+      
       <Loader/>
       <GridBackground />
       <Navbar/>
       <CustomCursor />
+      <SpaceBackground />
       <Hero />
       <ScrollReveal />
       <CurtainReveal/>
@@ -27,6 +28,7 @@ export default function Home() {
           NEXT GENERATION WEB
         </h4>
       </section>
+      
     </main>
   );
 }

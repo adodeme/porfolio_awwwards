@@ -70,7 +70,7 @@ function StarField() {
 
 export default function SpaceBackground() {
   return (
-    <div className="fixed inset-0">
+    <div className="fixed inset-0 -z-10">
       <Canvas camera={{ position: [0, 0, 5] }}>
         <ambientLight intensity={1} />
         <pointLight position={[5, 5, 5]} intensity={10} />
