@@ -7,6 +7,7 @@ import CustomCursor from "@/components/CustomCursor";
 import Loader from "@/components/Loader"
 import Navbar from "@/components/Navbar";
 import GridBackground from "@/components/GridBackground";
+import CurtainReveal from "@/components/CurtainReveal";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <CustomCursor />
       <Hero />
       <ScrollReveal />
+      <CurtainReveal/>
       <About />
       <Projects />
       <section className="h-screen flex items-center justify-center relative z-10">
