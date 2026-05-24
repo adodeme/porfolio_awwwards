@@ -19,7 +19,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen flex flex-col justify-center px-8 py-32 relative -z-10">
+    <section id="projects" className="min-h-screen flex flex-col justify-center px-8 py-32 relative z-10">
       <motion.h2
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}
