@@ -28,7 +28,7 @@ export default function NatureBackground() {
       {images.map((img, i) => (
         <div
           key={img}
-          className="absolute inset-0 transition-opacity duration-[2000ms]"
+          className="absolute inset-0 transition-opacity duration-[2000ms] z-5"
           style={{
             opacity: i === index ? 1 : 0,
             backgroundImage: `url(${img})`,
