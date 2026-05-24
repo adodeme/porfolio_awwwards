@@ -26,7 +26,7 @@ export default function ScrollReveal() {
     <section className="min-h-screen flex items-center justify-center relative z-10">
       <h2
         ref={titleRef}
-        className="text-white font-black text-6xl md:text-[12rem] text-center"
+        className="text-white font-black text-6xl md:text-[8rem] text-center"
       >
         CREATE
         <br />

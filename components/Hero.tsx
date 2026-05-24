@@ -12,7 +12,7 @@ export default function Hero() {
         className="text-7xl md:text-[11rem] font-black text-white leading-none"
         style={{
         textShadow:
-            "0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff",
+            "0 0 20px #ffd000, 0 0 40px #ffe600, 0 0 80px #ff0080",
         }}
         >
         Flodias 
@@ -28,9 +28,16 @@ export default function Hero() {
         transition={{ delay: 1.5 }}
         className="mt-12"
       >
-        <button className="px-8 py-4 rounded-full border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
-          Explorer
-        </button>
+        <motion.button
+        whileHover={{
+            scale: 1.1,
+            boxShadow: "0 0 40px #00ffff",
+        }}
+        whileTap={{ scale: 0.95 }}
+        className="px-8 py-4 rounded-full border border-cyan-400 text-cyan-400"
+        >
+            Explorer
+        </motion.button>
       </motion.div>
     </section>
   );
