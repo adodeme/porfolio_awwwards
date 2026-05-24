@@ -21,7 +21,6 @@ export default function Home() {
       <SpaceBackground />
       <Hero />
       <ScrollReveal />
-      <NatureBackground />
       <CurtainReveal/>
       <About />
       <Projects />

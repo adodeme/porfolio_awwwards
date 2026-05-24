@@ -27,7 +27,7 @@ export default function ScrollReveal() {
     <section className="min-h-screen flex items-center justify-center relative z-10 overflow-hidden">
       <p
         ref={titleRef}
-        className="text-white/10 font-black text-[5vw] leading-none text-center select-none"
+        className="text-white/30 font-black text-[15vw] leading-none text-center select-none"
       >
         Together, let's revolutionize the digital universe
       </p>
