@@ -27,7 +27,7 @@ export default function CustomCursor() {
         left: position.x - 16,
         top: position.y - 16,
         boxShadow:
-          "0 0 20px #00ffff, 0 0 40px #00ffff",
+          "0 0 20px #bbf0f0, 0 0 40px #ffbb00",
       }}
     />
   );
