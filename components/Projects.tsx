@@ -42,10 +42,12 @@ export default function Projects() {
               delay: index * 0.2,
             }}
             whileHover={{
-              y: -15,
-              scale: 1.03,
+              y: -25,
+              scale: 1.05,
+              rotateX: 10,
+              rotateY: 10,
             }}
-            className="backdrop-blur-md bg-white/5 border border-cyan-500/20 rounded-3xl p-8"
+            className="backdrop-blur-md bg-white/5 border border-cyan-500/20 rounded-3xl p-8 transition-all duration-300"
           >
             <h3 className="text-3xl font-bold text-white mb-4">
               {project.title}

@@ -2,35 +2,34 @@
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function ScrollReveal() {
   const titleRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
-    gsap.fromTo(
-      titleRef.current,
-      {
-        opacity: 0,
-        y: 100,
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(titleRef.current, {
+      y: -250,
+      opacity: 0.2,
+      ease: "none",
+      scrollTrigger: {
+        trigger: titleRef.current,
+        start: "top center",
+        end: "bottom top",
+        scrub: true,
       },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 2,
-        ease: "power4.out",
-      }
-    );
+    });
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative z-10">
+    <section className="min-h-screen flex items-center justify-center relative z-10 overflow-hidden">
       <h2
         ref={titleRef}
-        className="text-white font-black text-6xl md:text-[8rem] text-center"
+        className="text-white/80 font-black text-[18vw] leading-none text-center select-none"
       >
-        CREATE
-        <br />
-        THE FUTURE
+        Together, let's revolutionize the digital universe
       </h2>
     </section>
   );

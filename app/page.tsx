@@ -18,7 +18,11 @@ export default function Home() {
       <ScrollReveal />
       <About />
       <Projects />
-
+      <section className="h-screen flex items-center justify-center relative z-10">
+        <h2 className="text-white text-6xl font-black">
+          NEXT GENERATION WEB
+        </h2>
+      </section>
     </main>
   );
 }
