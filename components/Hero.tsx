@@ -11,7 +11,7 @@ export default function Hero() {
         transition={{ duration: 1.4 }}
         className="text-7xl md:text-9xl font-black text-white"
       >
-        JOHN DOE
+        Flodias ADODEME
       </motion.h1>
 
       <motion.p

@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "John Doe",
+  title: "Flodias ADODEME",
   description: "Creative Developer",
 };
 
