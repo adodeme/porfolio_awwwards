@@ -16,7 +16,7 @@ export default function GridBackground() {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black" />
+      <div className="absolute -z-10 inset-0 bg-gradient-to-b from-transparent via-transparent to-black" />
             <div
         className="absolute w-[800px] h-[800px] rounded-full blur-[150px]"
         style={{

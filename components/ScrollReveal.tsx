@@ -24,10 +24,10 @@ export default function ScrollReveal() {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative z-10 overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative -z-10 overflow-hidden">
       <p
         ref={titleRef}
-        className="text-white/30 font-black text-[10vw] leading-none text-center select-none"
+        className="text-white/20 font-black text-[10vw] leading-none text-center select-none"
       >
         Together, let's revolutionize the digital universe
       </p>
