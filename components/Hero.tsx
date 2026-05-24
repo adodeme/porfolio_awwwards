@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative z-10 h-screen flex flex-col justify-center items-center text-center px-6">
-      <motion.h1
-        initial={{ opacity: 0, y: 120 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.4 }}
-        className="text-7xl md:text-9xl font-black text-white"
-      >
-        Flodias ADODEME
-      </motion.h1>
+    <section className="relative z-10 h-screen flex flex-col justify-center items-center text-center px-6 backdrop-blur-sm">
+        <motion.h1
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1.5 }}
+        className="text-7xl md:text-[10rem] font-black text-white tracking-tight"
+        >
+        ADODEME
+        </motion.h1>
 
       <motion.p
         initial={{ opacity: 0 }}
