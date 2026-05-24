@@ -24,11 +24,11 @@ export default function NatureBackground() {
   }, []);
 
   return (
-    <div className="fixed inset-0 -z-20">
+    <div className="fixed inset-0 z-20">
       {images.map((img, i) => (
         <div
           key={img}
-          className="absolute inset-0 transition-opacity duration-[2000ms] z-5"
+          className="absolute inset-0 transition-opacity duration-[2000ms] z-20"
           style={{
             opacity: i === index ? 1 : 0,
             backgroundImage: `url(${img})`,
